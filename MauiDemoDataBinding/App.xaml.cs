@@ -8,7 +8,7 @@ namespace MauiDemoDataBinding
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new BindingModes()); 
+            MainPage = new NavigationPage(new NotifyBinding()); 
         }
     }
 }
